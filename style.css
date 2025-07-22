@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.body {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.body .box button {
+    width: 30px;
+    height: 30px;
+}
+
+.body .left .card {
+    width: 800px;
+    height: 700px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px;
+    padding: 50px;
+
+}
+
+.body .right {
+    padding-left: 30px;
+    column-gap: 10px;
+}
+
+.body .right button {
+    width: 40px;
+    height: 30px;
+}
